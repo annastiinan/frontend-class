@@ -1,0 +1,29 @@
+section {
+    text-align: center;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+.bikes img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    cursor: url(icons8-bicycle-50.png), auto;
+    
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+
+#huge {
+    font-size: large;
+}
