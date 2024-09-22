@@ -26,6 +26,8 @@ main  {
     z-index: 20;
     left: 0;
     top: 0;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 @media (max-width : 768px) {
